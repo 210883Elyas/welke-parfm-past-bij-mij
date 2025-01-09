@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background: white;
+    color: white;
+    padding: 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-around;             /* Deze zin is gegenereerd door ChatGPT.*/
+    margin-top: 20px;
+    flex-wrap: wrap;           /* Deze zin is gegenereerd door ChatGPT.*/
+    gap: 20px;
+}
+
+.link-item {
+    text-align: center;
+    max-width: 380px;
+    flex: 1;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #e0c1b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;                           /* Deze zin is gegenereerd door ChatGPT.*/
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ddb9af;
+}
+
+div {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}

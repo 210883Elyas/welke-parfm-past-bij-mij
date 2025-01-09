@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+
+    background: #c7b198 ;
+}
+
+body,p {
+    text-align: center;
+    font-size: 40px;
+    font-family: "PT Serif";
+}
+#fotos {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    
+}
+#fotos img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 34, 29, 0.3); /* Code van de kleur van ChatGPT */
+
+}    
+h1 {
+    margin: 40px 0 80px 0;
+    font-size: 50px;
+    font-family: "PT Serif";
+}
+#bloemig,#zoet,#vers,#spicy {
+    margin: 0 20px 0 20px;    
+}
+footer {
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background: #b0a58d;
+    font-family: "PT Serif"; 
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right:0; 
+}

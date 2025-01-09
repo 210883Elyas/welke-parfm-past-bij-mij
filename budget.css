@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Als jou keuzes waren, man, pittig, dit is de css bestand voor bloemig*/
+body {
+    background: #c7b198 url(resources/geld.png.png) no-repeat center 100px;
+    background-size: 50%; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+body,p {
+    text-align: center;
+    font-size: 60px;
+    font-family: "PT Serif";
+}
+#prijzen {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    
+}
+#prijzen p:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+
+}    
+h1 {
+    margin: 40px 0 80px 0;
+    font-size: 50px;
+    font-family: "PT Serif";
+}
+#goedkoop,#Gememmideld,#duur {
+    margin: 0 20px 0 20px;  
+}
+footer {
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background: #b0a58d;
+    font-family: "PT Serif"; 
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right:0; 
+}

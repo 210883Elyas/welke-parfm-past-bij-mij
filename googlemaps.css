@@ -1,0 +1,31 @@
+
+body {
+    background: #c7b198;
+    background-size: 50%; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+p { 
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 50px;
+}
+#maps {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+footer {
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background: #b0a58d;
+    font-family: "PT Serif"; 
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right:0; 
+}
